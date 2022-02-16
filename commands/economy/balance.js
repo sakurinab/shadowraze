@@ -21,7 +21,7 @@ module.exports.run = async (bot, message, args) => {
             .setTitle(`Баланс ${memb.user.tag}`)
             .addField(`> ${bot.values.crown} Баланс`, "```" + `${razbitNumber(res.crown)}` + "```", true)
             .setThumbnail(message.author.displayAvatarURL({format: "png", dynamic: true, size: 1024}))
-            .addField(`Кристаллы ${bot.values.gem}`, `${razbitNumber(res.gem)}`, true)
+            //.addField(`Кристаллы ${bot.values.gem}`, `${razbitNumber(res.gem)}`, true)
             .setColor("#36393f")
             message.channel.send(bal)
         } else {
@@ -31,7 +31,7 @@ module.exports.run = async (bot, message, args) => {
             .setTitle(`Баланс ${memb.user.tag}`)
             .addField(`> ${bot.values.crown} Баланс`, "```"+`${razbitNumber(res.crown)}` + "```", true)
             .setThumbnail(message.author.displayAvatarURL({format: "png", dynamic: true, size: 1024}))
-            .addField(`Кристаллы ${bot.values.gem}`, `${razbitNumber(res.gem)}`, true)
+            //.addField(`Кристаллы ${bot.values.gem}`, `${razbitNumber(res.gem)}`, true)
             .setColor("#36393f")
             message.channel.send(bal)
         }
