@@ -1,4 +1,4 @@
-module.exports.crown = "<:soul:942033051913965602>"
+module.exports.crown = "<a:H_Candy:943618072596586496>"
 
 module.exports.gem = ":gem:"
 
